@@ -42,7 +42,7 @@ locals {
 
 # Retrieve global variables from the Terraform module
 module "globalvars" {
-  source = "../../modules/globalvars"
+  source = "/home/ec2-user/environment/assignment1_fork/terraform_code/modules/globalvars"
 }
 
 # Reference subnet provisioned by 01-Networking 
