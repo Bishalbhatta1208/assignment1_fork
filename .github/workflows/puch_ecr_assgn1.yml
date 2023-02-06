@@ -36,7 +36,7 @@ jobs:
         #cd Chapter02/kubia/
         ls -ltra
         # Docker build
-        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY1:$IMAGE_TAG .
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY2:$IMAGE_TAG -f Dockerfile_mysql .
         # Unit test
         #docker run -d -p 82:8080 --name nodeapp $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
