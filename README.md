@@ -1,3 +1,18 @@
+1. cd /home/ec2-user/environment/assignment1_fork/terraform_code/dev/ecr
+	a. tf init
+	b. tf validate
+	c. tf plan
+	d. tf apply --auto-approve
+
+2. cd /home/ec2-user/environment/assignment1_fork/terraform_code/dev/instances
+	a. tf init
+	b. tf validate
+	c. tf plan
+	d. tf apply --auto-approve
+
+3. creating keys-
+	a. cd /home/ec2-user/environment/assignment1_fork/terraform_code/dev/instances - ssh-keygen -t rsa -f Assignment1-dev
+
 # Install the required MySQL package
 
 sudo apt-get update -y
