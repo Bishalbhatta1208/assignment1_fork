@@ -13,6 +13,7 @@
 3. creating keys-
 	a. cd /home/ec2-user/environment/assignment1_fork/terraform_code/dev/instances - ssh-keygen -t rsa -f Assignment1-dev
 
+4. 
 # Install the required MySQL package
 
 sudo apt-get update -y
