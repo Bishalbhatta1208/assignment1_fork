@@ -13,7 +13,9 @@
 3. creating keys-
 	a. cd /home/ec2-user/environment/assignment1_fork/terraform_code/dev/instances - ssh-keygen -t rsa -f Assignment1-dev
 
-4. 
+4.  login to ec2
+	a. ssh -i Assignment1-dev {generated ip}
+
 # Install the required MySQL package
 
 sudo apt-get update -y
